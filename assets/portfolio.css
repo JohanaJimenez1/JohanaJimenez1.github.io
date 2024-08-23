@@ -19,7 +19,7 @@ html {
 }
 
 .container-header header {
-    max-width: 1200px;
+    max-width: 1150px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,7 @@ html {
 
 .inicio {
     background-color: #004643;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -73,7 +73,7 @@ html {
 .inicio .contenue-banner {
     padding: 10px;
     background-color: #FFFFFE;
-    max-width: 350px;
+    width: 350px;
     margin: auto;
     text-align: center;
     border-radius: 40px;
@@ -89,12 +89,12 @@ html {
 
 .inicio .contenue-banner h1 {
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 35px;
     color: #001E1D;
 }
 
 .inicio .contenue-banner h2 {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: normal;
 }
 
@@ -125,8 +125,8 @@ html {
 }
 
 .contenido-section {
-    background-color: #004643;
-    color: #ABD1C6;
+    
+    color: white;
     max-width: 550px;
     text-align: left;
     margin: auto;
@@ -146,21 +146,22 @@ html {
 /* PORTFOLIO */
 
 .container-portfolio {
+    display: flex;
+    flex-wrap: wrap;
     height: 100vh;
     background-color: #ABD1C6;
     max-width: 100%;
+    justify-content: center;
 }
 .container-boite{
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
 }
 
 .container-portfolio h1 {
     color: #001E1D;
-    text-align: center;
     font-size: 40px;
-    padding: 30px;
+    padding-top: 15px;
 }
 
 .boite-portofolio img {
