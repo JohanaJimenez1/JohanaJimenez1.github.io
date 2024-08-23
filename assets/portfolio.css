@@ -200,23 +200,27 @@ html {
 form{
     width: 350px;
     margin: auto;
-    padding-top: 60px
-
+    padding-top: 60px;
+}
+.labeiInput{
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 #containerContact h1{
-    font-size: 52px;
+    font-size: 35px;
     color:#0F3433;
     text-align: center;
     padding-top: 20px;
 
 }
 #containerContact label{
-    font-size: 32px;
+    font-size: 20px;
 }
 #containerContact input{
     width: 350px;
-    height: 30px;
+    height: 40px;
     border-radius: 10px;
+   padding-left: 15px;
 }
 #containerContact textarea{
     width: 350px;
