@@ -146,15 +146,13 @@ html {
 /* PORTFOLIO */
 
 .container-portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
     background-color: #ABD1C6;
     max-width: 100%;
-    justify-content: center;
+    padding-bottom: 40px;
 }
 .container-boite{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -162,6 +160,8 @@ html {
     color: #001E1D;
     font-size: 40px;
     padding-top: 15px;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .boite-portofolio img {
