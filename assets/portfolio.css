@@ -4,13 +4,20 @@
     margin: 0;
     padding: 0;
 }
-
 html {
     scroll-behavior: smooth;
 }
+:root{
+    --background: #004643;
+    --blancbanner: #FFFFFE;
+    --font: #1cb698;
+    --blanc: #fff;
+    --noir: #000;
+    --paragraphe: #001E1D;
+}
 
 .container-header {
-    background: #004643;
+    background: var(--background);
     position: fixed;
     width: 100%;
     top: 0;
@@ -28,8 +35,8 @@ html {
 }
 
 .container-header header .logo a{
-    font-size: 36px;
-    color: white;
+    font-size: 35px;
+    color: var(--blanc);
     text-decoration: none;
 }
 
@@ -40,7 +47,7 @@ html {
 
 .container-header header ul li a {
     text-align: none;
-    color: #fff;
+    color: var(--blanc);
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -48,12 +55,12 @@ html {
 }
 
 .container-header header ul li a:hover {
-    color: #1cb698;
+    color: #f9bc60;
 }
 
 .nav-menuhamburgeur {
-    background-color: #1cb698;
-    color: #fff;
+    background-color: var(--font);
+    color: var(--blanc);
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -63,7 +70,7 @@ html {
 /* INICIO */
 
 .inicio {
-    background-color: #004643;
+    background-color: var(--background);
     height: 90vh;
     display: flex;
     align-items: center;
@@ -72,7 +79,7 @@ html {
 
 .inicio .contenue-banner {
     padding: 10px;
-    background-color: #FFFFFE;
+    background-color: var(--blancbanner);
     width: 350px;
     margin: auto;
     text-align: center;
@@ -94,7 +101,7 @@ html {
 }
 
 .inicio .contenue-banner h2 {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: normal;
 }
 
@@ -125,7 +132,6 @@ html {
 }
 
 .contenido-section {
-    
     color:#39685f;
     max-width: 550px;
     text-align: left;
@@ -140,7 +146,7 @@ html {
     color: #001E1D;
     text-align: center;
     padding: 30px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 /* PORTFOLIO */
@@ -150,18 +156,12 @@ html {
     max-width: 100%;
     padding-bottom: 40px;
 }
-.container-boite{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 
 .container-portfolio h1 {
     color: #001E1D;
-    font-size: 40px;
-    padding-top: 15px;
-    padding: 20px 0;
+    font-size: 35px;
     text-align: center;
+    padding: 60px 30px;
 }
 
 .boite-portofolio img {
@@ -173,11 +173,12 @@ html {
 
 }
 
-
 .container-boite {
     display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 20px;
+    gap: 20px;
 }
 
 .boite-portofolio img:hover {
@@ -190,6 +191,7 @@ html {
     padding: 20px;
     background-color: #E8E4E6;
 }
+
 
 /* CONCT */
 #containerContact{
@@ -213,29 +215,38 @@ form{
     padding-top: 20px;
 
 }
+textarea,input:focus{
+    outline: none;
+  }
 #containerContact label{
-    font-size: 20px;
+    font-size: 18px;
+    color: var(--paragraphe);
 }
 #containerContact input{
     width: 350px;
     height: 40px;
     border-radius: 10px;
-   padding-left: 15px;
+    border-style: none;
+    padding-left: 15px;
 }
 #containerContact textarea{
     width: 350px;
     height: 150px;
     border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-style: none;
+    resize: none;
 }
 #containerContact button{
     
         display: block;
         background-color: #f9bc60;;
         border-radius: 10px;
-        border: 4px double #f9bc60;;
+        border: 4px double #f9bc60;
         color: #0F3433;
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
         padding: 10px;
         width: 200px;
         cursor: pointer;
@@ -250,7 +261,7 @@ form{
         box-shadow: 10px 5px 5px #0F3433;
         color: #0F3433;
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
 }
 
 
