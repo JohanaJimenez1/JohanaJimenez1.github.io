@@ -127,8 +127,7 @@ html {
 
 .apropos {
     background-color: #ABD1C6;
-    height: 50vh;
-    
+    height: 70vh;    
 }
 
 .contenido-section {
@@ -161,7 +160,7 @@ html {
     color: #001E1D;
     font-size: 35px;
     text-align: center;
-    padding: 60px 30px;
+    padding-bottom:20px;
 }
 
 .boite-portofolio img {
