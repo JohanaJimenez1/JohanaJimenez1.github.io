@@ -71,10 +71,10 @@ html {
 
 .inicio {
     background-color: var(--background);
-    height: 90vh;
-    display: flex;
+    display:block;
     align-items: center;
-    margin-top: 20px;
+    align-content: center;
+    padding-top: 80px;
 }
 
 .inicio .contenue-banner {
@@ -121,6 +121,14 @@ html {
 
 .inicio .contenue-banner .reseaux-sociaux a:hover {
     background-color: #f9bc60;
+}
+
+.iconTecnologie{
+    width: 60px;
+}
+#iconTecnologie{
+    margin: 20px;
+    text-align: center;
 }
 
 /* A PROPOS */
