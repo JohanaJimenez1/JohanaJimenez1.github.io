@@ -16,15 +16,15 @@
         <div class="logo">
             <a href="#">Johana</a>
         </div>
-        <nav id="nav">
+        <nav id="nav" class="responsive">
             <ul>
-                <li><a href="#">A PROPOS</a></li>
-                <li><a href="#">PROJETS</a></li>
-                <li><a href="#" id="telechargementCv">CV</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#apropos" onclick="select()">A PROPOS</a></li>
+                <li><a href="#portfolio" onclick="select()">PROJETS</a></li>
+                <li><a href="#telechargemenCv" id="telechargementCv" onclick="select()">CV</a></li>
+                <li><a href="#containerContact" onclick="select()">CONTACT</a></li>
             </ul>
         </nav>
-        <div class="nav-menuhamburgeur">
+        <div class="nav-menuhamburgeur" onclick="noneOrblock()">
             <i class="fa-solid fa-bars"></i>
         </div>
     </header>
@@ -63,7 +63,7 @@
 
     <!-- PORTFOLIO -->
 
-    <section class="container-portfolio">
+    <section class="container-portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <div class="container-boite">
             <div class="boite-portofolio">
