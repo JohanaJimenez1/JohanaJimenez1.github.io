@@ -8,7 +8,7 @@ html {
     scroll-behavior: smooth;
 }
 :root{
-    --background: #004643;
+    --background: #39685f;
     --blancbanner: #FFFFFE;
     --font: #1cb698;
     --blanc: #fff;
@@ -59,7 +59,7 @@ html {
 }
 
 .nav-menuhamburgeur {
-    background-color: var(--font);
+    background-color: #ABD1C6;
     color: var(--blanc);
     padding: 5px 10px;
     border-radius: 5px;
@@ -127,8 +127,22 @@ html {
     width: 60px;
 }
 #iconTecnologie{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin: 20px;
     text-align: center;
+}
+#iconTecnologie .nomIcon{
+   display: flex;
+   flex-direction: column;
+   font-weight: bold;
+   align-items: center;
+   gap: 5px;  
+}
+#iconTecnologie h2{
+    padding-bottom: 15px;
+    color: #ABD1C6;
 }
 
 /* A PROPOS */
@@ -149,7 +163,7 @@ html {
     letter-spacing: 5px;
 }
 
-.apropos h1 {
+h1 {
     color: #001E1D;
     text-align: center;
     padding: 30px;
@@ -209,7 +223,7 @@ html {
 form{
     width: 350px;
     margin: auto;
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 .labeiInput{
     margin-bottom: 10px;

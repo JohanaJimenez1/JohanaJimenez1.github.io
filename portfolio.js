@@ -9,6 +9,7 @@ function noneOrblock(){
         menuVisible = true;
     }
 }
+
 function select(){
     document.getElementById("nav").classList = "";
     menuVisible = false;
