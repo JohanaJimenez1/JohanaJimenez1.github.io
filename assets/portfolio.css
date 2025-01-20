@@ -119,6 +119,11 @@ html {
     transition: .3s;
 }
 
+#telechargementCv{
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .inicio .contenue-banner .reseaux-sociaux a:hover {
     background-color: #f9bc60;
 }
@@ -128,10 +133,12 @@ html {
 }
 #iconTecnologie{
     display:flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     justify-content: space-around;
     margin: 20px;
     text-align: center;
+    gap: 20px;
 }
 #iconTecnologie .nomIcon{
    display: flex;
@@ -143,6 +150,13 @@ html {
 #iconTecnologie h2{
     padding-bottom: 15px;
     color: #ABD1C6;
+}
+
+#iconTecnologie .outils{
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    gap: 40px;
 }
 
 /* A PROPOS */
